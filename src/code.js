@@ -1,12 +1,12 @@
 function verifierChamps(event) {
     
      event.preventDefault();
-  
    
     const prenom = document.querySelector('#first-name').value;
     const nom = document.querySelector('#last-name').value;
     const commentaire = document.querySelector('#message').value;
     const commentaires = document.querySelector("#comment-list")
+    
   function clear() {
     document.querySelector('#first-name').value="";
     document.querySelector('#last-name').value="";
